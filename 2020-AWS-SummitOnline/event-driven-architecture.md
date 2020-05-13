@@ -39,7 +39,7 @@
 
 서버리스 Pub/Sub: Amazon SNS, Amazon EventBridge
 관리형 메시지 브로커: Amazon MQ
-스트리밍 메시지: Amazon Kinesis Data Streams, Amazon Manazon
+데이터 스트리밍 서비스: Amazon Kinesis Data Streams
 
 ## 어플리케이션 통합 방법
 
