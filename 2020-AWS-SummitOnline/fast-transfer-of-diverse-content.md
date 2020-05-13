@@ -16,8 +16,8 @@ Amazon Global Accelerator
 정적인 컨텐츠는 캐시를 통해 전달
 동적인 컨텐츠는 AWS 글로벌 네트워크를 통해 빠르게 전송
 
-다른 AWS tjqltmdhk tnlqrp dusehd(aws waf, s3, media, ACM)
-aws 리전 data transfer out 비용 면제의 효과
+다른 AWS 서비스와 쉽게 연동(AWS WAF, S3, Media, ACM)
+AWS 리전 data transfer out 비용 면제의 효과
 
 ### 최적의 엣지 로케이션 연결하기
 
@@ -27,29 +27,30 @@ aws 리전 data transfer out 비용 면제의 효과
 ### 캐시를 이용한 응답
 
 3계층 구조
-l1 - hot 컨텐츠 캐시
-l2 - 대형 캐시 계층
-l3 - 지속 연결
+
+- L1 - hot 컨텐츠 캐시
+- L2 - 대형 캐시 계층
+- L3 - 지속 연결
 
 l3는 원본까지 연결을 하고 있어, 정보를 빠르게 가져올 수 있음.
 
 ### 동적인 컨텐츠의 가속
 
-동적인 컨텐츠(api, 회원정보)
+동적인 컨텐츠(API, 회원정보)
 
-l3 계층과 오리진의 지속연결
-엣지에서 tls 연결의 종단
-l1 -> l3로 직접 연결
+1. L3 계층과 오리진의 지속연결
+2. 엣지에서 TLS 연결의 종단
+3. L1 -> L3로 직접 연결
 
 ## Amazon Global Accelerator
 
-- 고정된 ip로 엔드포인트 제공
+- 고정된 IP로 엔드포인트 제공
 - 다중 리전 구성에서 최적의 리전으로 연결
-- aws 글로벌 네트워크를 통해 빠른 전송
+- AWS 글로벌 네트워크를 통해 빠른 전송
 
 다음과 같은게 CloudFront와 다름
 
-- 상위 프로토콜에 무관하게 tcp / udp의 가속
+- 상위 프로토콜에 무관하게 TCP / UDP의 가속
 - 캐시 기능 없음
 
 ### dns 관리가 필요없는 엔드포인트
@@ -66,6 +67,6 @@ l1 -> l3로 직접 연결
 
 ## 요약
 
-컨쳍츠 전송의 지연은 비즈니스에 악영향
+컨텐츠 전송의 지연은 비즈니스에 악영향
 HTTP 어플리케이션은 Amazon CloudFront
 Non-HTTP 어플레케이션은 Amazon Global Accelerator
