@@ -22,9 +22,9 @@ EBS, EFS, FSx, S3
 
 ### AWS 마이그레이션 서비스
 
-오프라인 - AWS Snowball Edge, Snowmobile
-온라인 - AWS DataSync, AWS Transfer for SFTP, AWS Direct Connect
-데이터베이스 - AWS Database Migration Service, CloudEndure an AWS Company
+- 오프라인 - AWS Snowball Edge, Snowmobile
+- 온라인 - AWS DataSync, AWS Transfer for SFTP, AWS Direct Connect
+- 데이터베이스 - AWS Database Migration Service, CloudEndure an AWS Company
 
 ## 마이그레이션 서비스
 

@@ -67,6 +67,6 @@ l3는 원본까지 연결을 하고 있어, 정보를 빠르게 가져올 수 �
 
 ## 요약
 
-컨텐츠 전송의 지연은 비즈니스에 악영향
-HTTP 어플리케이션은 Amazon CloudFront
-Non-HTTP 어플레케이션은 Amazon Global Accelerator
+- 컨텐츠 전송의 지연은 비즈니스에 악영향
+- HTTP 어플리케이션은 Amazon CloudFront
+- Non-HTTP 어플레케이션은 Amazon Global Accelerator

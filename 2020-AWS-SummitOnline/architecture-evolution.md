@@ -13,36 +13,42 @@
 
 #### 서버 선정
 
-용도에 맞는 EC2 선택
-업무에 적합한 서버 선정
+> 용도에 맞는 EC2 선택
+> 업무에 적합한 서버 선정
 
 필요시 손쉬운 서버 타입 변경 가능
-용량 산정에 대해 고민하지 말고, 사용해보면서 적합한 용량 선택
+
+용량 산정에 대해 고민하지 말고, _사용해보면서 적합한 용량 선택_
 
 cpu, processor, 메모리, 스토리지 등 다양한 옵션
 
 #### 서버 이중화 구성
 
-한 서버가 꺼졌을 경우 서비스가 정지됨을 방지
+> 한 서버가 꺼졌을 경우 서비스가 정지됨을 방지
 
 AWS Elastic Load Balancing을 이용해 부하 분산
 
 ### 데이터베이스
 
 Amazon RDS - 6개의 엔진 기반 데이터 관리형 서비스
+
 Amazon Aurora의 경우 MySQL, PostreseSQL 지원
+
 자동 스토리지 확장, 백업
 
 ### 사용자 인증
 
-사용자 인증 서비스 구현
+> 사용자 인증 서비스 구현
+
 회원가입, 로그인 등등
+
 Amazon Cognito를 이용한 빠른 인증구현(개발자들은 어플리케이션 개발에만 집중)
 
 ### 소스코드 관리 및 배포
 
+> AWS CodePipeLine을 통해 전체 흐름 관리
+
 AWS의 모든 서비스를 활용할 수도 있음
-AWS CodePipeLine을 통해 전체 흐름 관리
 
 ## 사용자수 > 1000
 
@@ -61,8 +67,8 @@ AWS CodePipeLine을 통해 전체 흐름 관리
 
 ### Amazon RDS 다중 AZ 배포
 
-Master와 StandBy를 활용한 동기식 복제
-Master DB 장애 시 StandBy가 Master DB로 승격
+> Master와 StandBy를 활용한 동기식 복제
+> Master DB 장애 시 StandBy가 Master DB로 승격
 
 ### AWS Backup 서비스를 이용한 백업 관리 자동화
 

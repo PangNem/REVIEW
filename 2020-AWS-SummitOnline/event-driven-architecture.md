@@ -38,9 +38,9 @@ _직접 서비스를 요청하지 않는 형식_
 
 ### Pub/Sub을 지원하는 AWS 서비스
 
-서버리스 Pub/Sub: Amazon SNS, Amazon EventBridge
-관리형 메시지 브로커: Amazon MQ
-데이터 스트리밍 서비스: Amazon Kinesis Data Streams
+- 서버리스 Pub/Sub: Amazon SNS, Amazon EventBridge
+- 관리형 메시지 브로커: Amazon MQ
+- 데이터 스트리밍 서비스: Amazon Kinesis Data Streams
 
 ## 어플리케이션 통합 방법
 
