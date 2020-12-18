@@ -4,6 +4,7 @@
 
 ## 2020년 세미나
 
+- 우아한 테크 콘서트
 - [2020 AWS Summit Online Korea](./2020-AWS-Summit-Online-KR/README.md)
 
 ## 도서
